@@ -1,0 +1,17 @@
+# Course project "Sea Course GA" - desktop application (PyQt5)
+# Dependencies of the point-graph route search and its GUI only.
+# The diploma part (neural network, web service) is NOT needed to run it.
+#
+# Tested with Python 3.10 and 3.13 (Windows 10/11, Ubuntu 20.04+, Fedora 38+).
+# Install:  pip install -r requirements-course.txt
+
+numpy>=1.24,<3
+pandas>=2.0
+scipy>=1.10
+scikit-learn>=1.3          # BallTree used by the shared data package
+networkx>=3.1              # navigation graph
+matplotlib>=3.7            # map and convergence plots (embedded in Qt)
+PyQt5>=5.15                # graphical user interface
+folium>=0.14               # optional: interactive HTML map in the export
+ijson>=3.2                 # optional: streaming reader for large GeoJSON files
+pytest>=7.4                # optional: automated tests

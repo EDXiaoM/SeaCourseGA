@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+# The dataset is attached to the GitHub release, not stored in the repository.
+data/raw/*.json
+data/raw/*.geojson
+outputs/*
+!outputs/.gitkeep
+.DS_Store
